@@ -1,1 +1,1 @@
-Teste
+Testando comando (git pull) copiar no repositorio local.
