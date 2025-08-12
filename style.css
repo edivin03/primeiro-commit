@@ -1,0 +1,72 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+.img-copo{
+    width: 340px;
+}
+body{
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text-content{
+    width: 600px;
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #333333;
+}
+#starbucks{
+    color: #017143;
+    font-size: 70px;
+    font-weight: 900;
+}
+p{
+    font-size: 20px;
+    color: #333333;
+    margin-top: 20px;
+}
+button{
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: #017143;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s;
+}
+button:hover{
+    background-color: #00422d;
+}
+.img-copo{
+   /* width: 600px;*/
+    display: flex;
+    justify-content: end;
+    margin-top: 250px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+}
+.btn-menu{
+    width: 60px;
+    cursor: pointer;
+    transition: .5s;
+}
+.btn-menu:hover{
+    transform: translateY(-20px);
+}
